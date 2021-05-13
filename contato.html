@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Photografies </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header> 
+            <img class="banner" src="megg-banner.jpg" alt="Photographie d'une chienne saucisse">
+            <nav>
+                    <ul>
+                        <li> <a href="index.html">Accueil</a></li>
+                        <li> <a href="photos.html">Photografies</a></li>
+                        <li> <a href="contato.html">Contact</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="contact-form">
+            <h1 class="contact-title"> Parlez-moi</h1>
+            <form>
+                <label for="name">Prenon et nom de famille</label>
+                <input type="text" id="name" class="input-padrao" required placeholder="Votre nom et prenom">
+
+                <label for="email">Courriel</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="courriel@courriel.com">
+
+                <label for="phone">Téléphone</label>
+                <input type="tel" id="phone" class="input-padrao" required required placeholder="(XXX) XXX-XXXX)">
+
+                <fieldset>
+                    <legend><strong>Avez-vous aimé mon site web?</strong></legend>
+                    <select>
+                        <option>⭐ Oui</option>
+                        <option>Non 💔</option>
+                    </select>
+                </fieldset>
+
+                <label for="message"> Message</label>
+                <textarea cols="72" rows="10" id="message" class="input-padrao" required></textarea>
+                
+                <label class="checkbox"> <input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail</label>
+                <input type="submit" value="Envoyer" class="enviar">
+            </form>
+            </div>
+
+            <div class="questions">
+            <h2 class="contact-title"> Questions Courantes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Question</th>
+                            <th>Réponse</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Le Brésil vous manque-t-il?</td>
+                            <td>Le Brésil? Non, la famille et la plage? Bien sûr.</td>
+                        </tr>
+                        <tr>
+                            <td>A-t-il été difficile de créer ce site?</td>
+                            <td>Un peu, car ça fait longtemps que je n'ai pas joué avec html ou css.</td>
+                        </tr>
+                        <tr>
+                            <td>Peux-tu me dire ce que tu aimes le plus faire, megg?</td>
+                            <td>Sans doute, dormir. </td>
+                        </tr>
+                        <tr>
+                            <td>Qu'est que tu aimes manger, megg?</td>
+                            <td>Le pain. Mais les humains ne me laissent pas manger. </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <img src="photo-3a.jpg">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+               <!-- <tr><td colspan="5"> Rio de Janeiro </td></tr> -->
+            
+
+
+        </main>
+        <footer>
+            <p class="copyright"> &copy; Copyright MEGG - 2021</p>
+        </footer>
+    </body>
+</html>
